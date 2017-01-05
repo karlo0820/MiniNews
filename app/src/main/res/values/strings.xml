@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">MiniNews</string>
+    <string name="transition">transition_photo</string>
+    <string-array name="netease_tabs">
+        <item>头条</item>
+        <item>房产</item>
+        <item>体育</item>
+        <item>娱乐</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>电影</item>
+        <item>汽车</item>
+        <item>笑话</item>
+        <item>游戏</item>
+        <item>时尚</item>
+        <item>情感</item>
+        <item>精选</item>
+        <item>电台</item>
+        <item>NBA</item>
+        <item>数码</item>
+        <item>移动</item>
+        <item>彩票</item>
+        <item>教育</item>
+        <item>论坛</item>
+        <item>旅游</item>
+        <item>手机</item>
+        <item>博客</item>
+        <item>社会</item>
+        <item>家居</item>
+        <item>军事</item>
+    </string-array>
+    <string-array name="netease_tabs_id">
+        <!--头条-->
+        <item>T1348647909107</item>
+        <!--房产-->
+        <item>5YyX5Lqs</item>
+        <!--体育-->
+        <item>T1348649079062</item>
+        <!--娱乐-->
+        <item>T1348648517839</item>
+        <!--财经-->
+        <item>T1348648756099</item>
+        <!--科技-->
+        <item>T1348649580692</item>
+        <!--电影-->
+        <item>T1348648650048</item>
+        <!--汽车-->
+        <item>T1348654060988</item>
+        <!--笑话-->
+        <item>T1350383429665</item>
+        <!--游戏-->
+        <item>T1348654151579</item>
+        <!--时尚-->
+        <item>T1348650593803</item>
+        <!--情感-->
+        <item>T1348650839000</item>
+        <!--精选-->
+        <item>T1370583240249</item>
+        <!--电台-->
+        <item>T1379038288239</item>
+        <!--NBA-->
+        <item>T1348649145984</item>
+        <!--数码-->
+        <item>T1348649776727</item>
+        <!--移动-->
+        <item>T1351233117091</item>
+        <!--彩票-->
+        <item>T1356600029035</item>
+        <!--教育-->
+        <item>T1348654225495</item>
+        <!--论坛-->
+        <item>T1349837670307</item>
+        <!--旅游-->
+        <item>T1348654204705</item>
+        <!--手机-->
+        <item>T1348649654285</item>
+        <!--博客-->
+        <item>T1349837698345</item>
+        <!--社会-->
+        <item>T1348648037603</item>
+        <!--家居-->
+        <item>T1348654105308</item>
+        <!--军事-->
+        <item>T1348648141035</item>
+    </string-array>
+    <string name="shareTitle">来自Karlo开发的MiniNews的新闻</string>
+</resources>

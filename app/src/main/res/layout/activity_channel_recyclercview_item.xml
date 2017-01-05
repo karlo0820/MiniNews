@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/channel_item_text"
+        android:layout_width="@dimen/channel_tab_text"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/channel_btn_shape"
+        android:gravity="center"
+        android:text="头条" />
+
+    <ImageView
+        android:id="@+id/channel_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@mipmap/ic_delete"
+        android:visibility="gone" />
+</FrameLayout>

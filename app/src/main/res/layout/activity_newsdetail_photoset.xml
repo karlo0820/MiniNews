@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d3b3b"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/newsdetail_photo_viewpager"
+            android:layout_width="match_parent"
+            android:background="@color/colorAccent"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true" />
+
+        <LinearLayout
+            android:id="@+id/newslist_photo_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/newsdetail_photo_viewpager"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/newsdetail_photo_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Title"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/newsdetail_photo_pagemarker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1/4"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/newsdetail_photo_descri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="这是新闻描述"
+                    android:textColor="@android:color/white" />
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@mipmap/ic_arrow_back"
+        app:title="新闻图集"
+        app:titleTextColor="@android:color/white" />
+</FrameLayout>

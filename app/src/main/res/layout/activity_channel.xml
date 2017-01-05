@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="@mipmap/ic_arrow_back"
+        app:title="频道管理"
+        app:titleTextColor="#fff" />
+
+    <LinearLayout style="@style/channel_item_style">
+
+        <TextView
+            style="@style/channel_title_text_style"
+            android:text="我的频道" />
+        <Button
+            android:id="@+id/channel_btn_ed"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/channel_btn_ed_shape"
+            android:gravity="center"
+            android:text="编辑"
+            android:textColor="#ec1010" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/channel_recyclerview_selected"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout style="@style/channel_item_style">
+
+        <TextView
+            style="@style/channel_title_text_style"
+            android:text="频道推荐" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/channel_recyclerview_unselect"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_height="wrap_content" />
+</LinearLayout>
